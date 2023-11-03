@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/game_board_screen">
+
+    <fragment
+        android:id="@+id/about_Screen"
+        android:name="com.mobileapp.lightsout.About_Screen"
+        android:label="fragment_about_screen"
+        tools:layout="@layout/fragment_about_screen" >
+        <action
+            android:id="@+id/action_about_Screen_to_game_board_screen"
+            app:destination="@id/game_board_screen" />
+        <action
+            android:id="@+id/action_about_Screen_to_help_Screen"
+            app:destination="@id/help_Screen" />
+        <action
+            android:id="@+id/action_about_Screen_to_color_Settings_Screen"
+            app:destination="@id/color_Settings_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/color_Settings_Screen"
+        android:name="com.mobileapp.lightsout.Color_Settings_Screen"
+        android:label="color_settings"
+        tools:layout="@layout/fragment_color_settings_screen" >
+        <action
+            android:id="@+id/action_color_Settings_Screen_to_game_board_screen"
+            app:destination="@id/game_board_screen" />
+        <action
+            android:id="@+id/action_color_Settings_Screen_to_about_Screen"
+            app:destination="@id/about_Screen" />
+        <action
+            android:id="@+id/action_color_Settings_Screen_to_help_Screen"
+            app:destination="@id/help_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/game_board_screen"
+        android:name="com.mobileapp.lightsout.Game_Board_Screen"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_game_board_screen" >
+        <action
+            android:id="@+id/action_game_Board_Screen_to_game_Completion_Screen"
+            app:destination="@id/game_Completion_Screen" />
+        <action
+            android:id="@+id/action_game_Board_Screen_to_help_Screen"
+            app:destination="@id/help_Screen" />
+        <action
+            android:id="@+id/action_game_Board_Screen_to_about_Screen2"
+            app:destination="@id/about_Screen" />
+        <action
+            android:id="@+id/action_game_Board_Screen_to_color_Settings_Screen2"
+            app:destination="@id/color_Settings_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/game_Completion_Screen"
+        android:name="com.mobileapp.lightsout.Game_Completion_Screen"
+        android:label="fragment_game__completion__screen"
+        tools:layout="@layout/fragment_game_completion_screen" >
+        <argument
+            android:name="message"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/help_Screen"
+        android:name="com.mobileapp.lightsout.Help_Screen"
+        android:label="fragment_help__screen"
+        tools:layout="@layout/fragment_help_screen" >
+        <action
+            android:id="@+id/action_help_Screen_to_game_board_screen"
+            app:destination="@id/game_board_screen" />
+        <action
+            android:id="@+id/action_help_Screen_to_about_Screen"
+            app:destination="@id/about_Screen" />
+        <action
+            android:id="@+id/action_help_Screen_to_color_Settings_Screen"
+            app:destination="@id/color_Settings_Screen" />
+    </fragment>
+</navigation>

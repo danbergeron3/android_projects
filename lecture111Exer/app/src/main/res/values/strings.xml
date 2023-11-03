@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">lecture13Exer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text">Welcome! use this app to encrypt a secret message</string>
+    <string name="text2">Click the start button to begin</string>
+    <string name="button1">Start</string>
+    <string name="button2">Encrypt</string>
+    <string name="hint">Enter secret your secret message plan here</string>
+    <string name="message">Here is your encrypted message:</string>
+    <string name="encrypted"> </string>
+    <string name="equals">=</string>
+    <string name="help">Help</string>
+    <string name="back">back</string>
+    <string name="menu_item_settings_title">Settings</string>
+    <string name="menu_item_message_title">Message</string>
+    <string name="menu_item_help_title">Help</string>
+    <string name="settings_add_hints">Add encryption hints</string>
+    <string name="settings_audio_reader">Turn on audio reader</string>
+    <string name="settings_spanish">Spanish</string>
+    <string name="settings_party_time">Party time theme</string>
+    <string name="help_fragment_title">Help</string>
+    <string name="help_fragment_p1">Is this fragment helpful, do you feel helped?</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lecture11Exer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text">Welcome! use this app to encrypt a secret message</string>
+    <string name="text2">Click the start button to begin</string>
+    <string name="button1">Start</string>
+    <string name="button2">Encrypt</string>
+    <string name="hint">Enter secret your secret message plan here</string>
+</resources>

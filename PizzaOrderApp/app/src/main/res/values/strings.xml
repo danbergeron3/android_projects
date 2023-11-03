@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pizza Order App</string>
+    <string name="num_people">How many people?</string>
+    <string name="hint1">Enter number here</string>
+    <string name="how_hung">How Hungry?</string>
+    <string name="radio1" >Light</string>
+    <string name="radio2" >Medium</string>
+    <string name="radio3" >Ravenous</string>
+    <string name="topping">Toppings</string>
+    <string name="choose"> - up to three</string>
+    <string name="checkboxText1">Extra Cheese</string>
+    <string name="checkboxText2">Red Pepper</string>
+    <string name="checkboxText3">Mushrooms</string>
+    <string name="topping_list">Toppings List: \n</string>
+    <string name="amount_dis">Total</string>
+    <string name="button">Submit</string>
+
+</resources>

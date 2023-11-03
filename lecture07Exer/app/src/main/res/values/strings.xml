@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Color Picker</string>
+    <string name="hint1">Enter some words here</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
+    <string name="disable_color">Disable Color</string>
+    <string name="dynamic_text">Hello World</string>
+</resources>

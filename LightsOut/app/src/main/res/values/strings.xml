@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Lights Out</string>>
+    <string name="help_title">Lights Out Help</string>
+    <string name="background_description">light logo</string>
+    <string name="happy_light_description">light logo</string>
+    <string name="help_info">
+        Lights Out is a classic puzzle game that challenges players to
+        turn off all the lights on a grid. To play, start with a grid of lights,
+        some of which are on and some are off. The goal is to turn off all the lights,
+        but there\'s a catch: when you press a light to toggle it, it also affects the
+        adjacent lights, switching them from on to off or vice versa. The puzzle begins
+        with a predetermined pattern of lights, and your task is to find the right
+        sequence of moves to turn them all off. As you progress through the levels,
+        the patterns become more complex, requiring strategic thinking and careful
+        planning to solve. The ultimate objective is to find the minimum number of
+        moves to extinguish all the lights. Lights Out is a mentally stimulating and
+        addictive game that challenges your problem-solving skills.</string>
+    <string name="game_over">You Solved it!</string>
+    <string name="play_again">Play again and find out if you can solve it in even less moves!</string>
+    <string name="about_title">About Me</string>
+    <string name="about_info">I am a senior in CS. I enjoy programing fun android games. They make for
+    great projects. Please enjoy the app!</string>
+    <string name="settings_title">Settings</string>
+    <string name="setting_subTitle">Choose a color</string>
+    <string name="color1">Red</string>
+    <string name="color2">Yellow</string>
+    <string name="color3">Orange</string>
+    <string name="moves">Moves:</string>
+    <string name="new_game">New Game</string>
+    <string name="button_description">light bulb</string>
+
+</resources>

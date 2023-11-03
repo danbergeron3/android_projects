@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/app_name"
+        android:id="@+id/game_board_screen"
+        android:icon="@drawable/gamebored"/>
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/about_title"
+        android:id="@+id/about_Screen"
+        android:icon="@drawable/info"/>
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/help_title"
+        android:id="@+id/help_Screen"
+        android:icon="@drawable/help"
+        />
+</menu>
