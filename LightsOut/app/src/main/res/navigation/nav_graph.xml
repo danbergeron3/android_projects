@@ -52,6 +52,11 @@
         <action
             android:id="@+id/action_game_Board_Screen_to_color_Settings_Screen2"
             app:destination="@id/color_Settings_Screen" />
+        <argument
+            android:name="color"
+            app:argType="integer"
+            android:defaultValue="-1" />
+
     </fragment>
     <fragment
         android:id="@+id/game_Completion_Screen"

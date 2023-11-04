@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         // for top nav bar
         MaterialToolbar topBar;
         topBar = findViewById(R.id.toolbar);

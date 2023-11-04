@@ -24,9 +24,9 @@
     <string name="setting_subTitle">Choose a color</string>
     <string name="color1">Red</string>
     <string name="color2">Yellow</string>
-    <string name="color3">Orange</string>
+    <string name="color3">Amber</string>
     <string name="moves">Moves:</string>
     <string name="new_game">New Game</string>
     <string name="button_description">light bulb</string>
-
+    <string name="change">Change</string>
 </resources>

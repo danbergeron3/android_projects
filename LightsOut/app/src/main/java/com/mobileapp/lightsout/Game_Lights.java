@@ -1,8 +1,8 @@
 package com.mobileapp.lightsout;
 
+// holds information about states of individual buttons
 public class Game_Lights {
-    // hold information about individual buttons
-    //parameters (id, x, y, isOn)
+
     public Game_Lights(int _id, int _row, int _col, boolean _isOn) {
         id = _id;
         row = _row;
@@ -31,11 +31,9 @@ public class Game_Lights {
         isOn = _isOn;
     }
 
+    // class variables
     private boolean isOn;
     final private int row;
     final private int col;
     final private int id;
-    // which button is this
-    // and where on game bored i am located
-
 }
