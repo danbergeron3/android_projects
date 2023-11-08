@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/game">
+
+    <fragment
+        android:id="@+id/game"
+        android:name="com.mobileapp.wordguessinggame.Game"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_game_to_game_Completion"
+            app:destination="@id/game_Completion" />
+    </fragment>
+    <fragment
+        android:id="@+id/game_Completion"
+        android:name="com.mobileapp.wordguessinggame.Game_Completion"
+        android:label="fragment_game__completion"
+        tools:layout="@layout/fragment_game__completion" >
+        <argument
+            android:name="WinLose"
+            app:argType="string" />
+        <argument
+            android:name="Word"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_game_Completion_to_game"
+            app:destination="@id/game" />
+    </fragment>
+</navigation>
