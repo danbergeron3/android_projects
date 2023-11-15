@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Word Guessing Game</string>
+    <string name="mystery_word_lines">______</string>
+    <string name="lives_left">You have 8 lives left</string>
+    <string name="guess_classifier">Wrong guess: </string>
+    <string name="btn_guess">Guess</string>
+    <string name="btn_new_game">New Game</string>
+    <string name="game_win_loss">Text to display for win/loss</string>
+    <string name="mystery_word_solution">Activity</string>
+    <string name="hint">Enter Guess Here</string>
+</resources>
