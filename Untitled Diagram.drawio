@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T23:18:04.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="CTFziUw93LzU-cHdnxcK" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T23:21:19.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="goPeI04LwRZI4z48VIBw" version="23.1.1" type="github">
   <diagram name="Page-1" id="HZjEvbOUQnJ17dc9Jhi6">
     <mxGraphModel dx="1195" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -339,6 +339,77 @@
         </mxCell>
         <mxCell id="yAr_MvbeeYoECJWo9JC5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.458;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yAr_MvbeeYoECJWo9JC5-56" target="yAr_MvbeeYoECJWo9JC5-48">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-58" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1380" width="970" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-59" value="Front end " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1490" width="180" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-60" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-59">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-61" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-60">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-62" value="statics designs" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-60">
+          <mxGeometry x="40" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-59">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-64" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-63">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-65" value="navigation" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-63">
+          <mxGeometry x="40" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-59">
+          <mxGeometry y="90" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-67" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-66">
+          <mxGeometry width="40" height="130" as="geometry">
+            <mxRectangle width="40" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-68" value="class to make server requests&lt;br&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-66">
+          <mxGeometry x="40" width="140" height="130" as="geometry">
+            <mxRectangle width="140" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-59">
+          <mxGeometry y="220" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-70" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-69">
+          <mxGeometry width="40" height="130" as="geometry">
+            <mxRectangle width="40" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-71" value="class or two too generate dynamic elements on page" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-69">
+          <mxGeometry x="40" width="140" height="130" as="geometry">
+            <mxRectangle width="140" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-59">
+          <mxGeometry y="350" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-73" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-72">
+          <mxGeometry width="40" height="130" as="geometry">
+            <mxRectangle width="40" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAr_MvbeeYoECJWo9JC5-74" value="Dynamic pages will need code for displaying content" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="yAr_MvbeeYoECJWo9JC5-72">
+          <mxGeometry x="40" width="140" height="130" as="geometry">
+            <mxRectangle width="140" height="130" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
